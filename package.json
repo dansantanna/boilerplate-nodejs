@@ -1,0 +1,33 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "author": "DanieL",
+  "license": "ISC",
+  "scripts": {
+    "dev": "nodemon --exec babel-node ./src/app.js",
+    "start": "babel-node ./src/app.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/node": "^7.6.2",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.2",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "eslint": "^6.4.0",
+    "nodemon": "^1.19.2"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jwt-simple": "^0.5.6",
+    "mongoose": "^5.7.1",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "swagger-ui-express": "^4.1.1"
+  }
+}
