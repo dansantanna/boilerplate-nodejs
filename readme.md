@@ -1,4 +1,4 @@
-# [Prerequisites](#contributing)
+# [Prerequisites](#prerequisites)
 
 - [MongoDB](https://www.mongodb.com/download-center/community)
 - [Node JS LTS](http://nodejs.org) <small> Apenas versões LTS </small>
