@@ -8,7 +8,7 @@
 - Clone the repository with your project name
 
 ```bash
-    git clone https://github.com/sahat/hackathon-starter.git newproject
+    git clone https://github.com/dansantanna/boilerplate-nodejs.git newproject
 ```
 
 - Go to directory created
