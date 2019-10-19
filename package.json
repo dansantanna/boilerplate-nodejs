@@ -7,7 +7,8 @@
   "license": "ISC",
   "scripts": {
     "dev": "nodemon --exec babel-node ./src/app.js",
-    "start": "babel-node ./src/app.js"
+    "start": "babel-node ./src/app.js",
+    "format": "prettier --write \"src/**/*\""
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
@@ -16,7 +17,8 @@
     "@babel/preset-env": "^7.6.2",
     "babel-plugin-module-resolver": "^3.2.0",
     "eslint": "^6.4.0",
-    "nodemon": "^1.19.2"
+    "nodemon": "^1.19.2",
+    "prettier": "^1.18.2"
   },
   "dependencies": {
     "bcrypt": "^3.0.6",
