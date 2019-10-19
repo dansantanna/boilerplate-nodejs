@@ -27,21 +27,21 @@ app.use(routes)
 
 // connect to db
 db.once('open', () =>
-    app.server.listen(process.env.PORT || config.port, () =>
-        console.log('Started on port \x1b[36m%s\x1b[0m', app.server.address().port)
-    )
+  app.server.listen(process.env.PORT || config.port, () =>
+    console.log('Started on port \x1b[36m%s\x1b[0m', app.server.address().port)
+  )
 )
 
 db.on('error', () =>
-    console.log('\x1b[31m%s\x1b[0m', 'Error connecting to database')
+  console.log('\x1b[31m%s\x1b[0m', 'Error connecting to database')
 )
 
 app.use('/api-docs', swagger.serve, swagger.setup(swaggerDoc))
 
 app.use((req, res) => {
-    if (req.headers.accept.includes('text/html'))
-        res.status(404).sendFile(path.join(`${__dirname}/public/404.html`))
-    else res.status(404).send({ status: 'error', message: 'Page not found' })
+  if (req.headers.accept.includes('text/html'))
+    res.status(404).sendFile(path.join(`${__dirname}/public/404.html`))
+  else res.status(404).send({ status: 'error', message: 'Page not found' })
 })
 
 export default app
