@@ -8,13 +8,13 @@
 - Clone the repository with your project name
 
 ```bash
-    git clone https://github.com/dansantanna/boilerplate-nodejs.git newproject
+    git clone https://github.com/dansantanna/boilerplate-nodejs.git project
 ```
 
 - Go to directory created
 
 ```bash
-    cd newproject
+    cd project
 ```
 
 - Install NPM dependencies
