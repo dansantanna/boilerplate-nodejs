@@ -39,7 +39,7 @@
     "driver": "mongodb+srv",
     "host": "cluster-teste.mongodb.net",
     "username": "boilerplate",
-    "password": "boilerplate_boladão",
+    "password": "boilerplate_password",
     "port": 27017,
     "database": "boilerplate"
   }
